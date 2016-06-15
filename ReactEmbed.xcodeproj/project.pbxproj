@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		235DCD6D1D0FE5D900A05C1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 235DCD6C1D0FE5D900A05C1E /* main.m */; };
+		235DCD701D0FE5D900A05C1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 235DCD6F1D0FE5D900A05C1E /* AppDelegate.m */; };
+		235DCD731D0FE5D900A05C1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 235DCD721D0FE5D900A05C1E /* ViewController.m */; };
+		235DCD761D0FE5D900A05C1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235DCD741D0FE5D900A05C1E /* Main.storyboard */; };
+		235DCD781D0FE5D900A05C1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 235DCD771D0FE5D900A05C1E /* Assets.xcassets */; };
+		235DCD7B1D0FE5D900A05C1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235DCD791D0FE5D900A05C1E /* LaunchScreen.storyboard */; };
+		235DCD861D0FE5D900A05C1E /* ReactEmbedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 235DCD851D0FE5D900A05C1E /* ReactEmbedTests.m */; };
+		235DCD911D0FE5D900A05C1E /* ReactEmbedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 235DCD901D0FE5D900A05C1E /* ReactEmbedUITests.m */; };
+		235DCDA01D0FEC0F00A05C1E /* ReactView.m in Sources */ = {isa = PBXBuildFile; fileRef = 235DCD9F1D0FEC0F00A05C1E /* ReactView.m */; };
+		3BF885BA259C1F9CF2A11A9F /* libPods-ReactEmbed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A543391A03ECE0B9DADDC7 /* libPods-ReactEmbed.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		235DCD821D0FE5D900A05C1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 235DCD601D0FE5D900A05C1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 235DCD671D0FE5D900A05C1E;
+			remoteInfo = ReactEmbed;
+		};
+		235DCD8D1D0FE5D900A05C1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 235DCD601D0FE5D900A05C1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 235DCD671D0FE5D900A05C1E;
+			remoteInfo = ReactEmbed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		235DCD681D0FE5D900A05C1E /* ReactEmbed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactEmbed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		235DCD6C1D0FE5D900A05C1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		235DCD6E1D0FE5D900A05C1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		235DCD6F1D0FE5D900A05C1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		235DCD711D0FE5D900A05C1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		235DCD721D0FE5D900A05C1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		235DCD751D0FE5D900A05C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		235DCD771D0FE5D900A05C1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		235DCD7A1D0FE5D900A05C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		235DCD7C1D0FE5D900A05C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235DCD811D0FE5D900A05C1E /* ReactEmbedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactEmbedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		235DCD851D0FE5D900A05C1E /* ReactEmbedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactEmbedTests.m; sourceTree = "<group>"; };
+		235DCD871D0FE5D900A05C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235DCD8C1D0FE5D900A05C1E /* ReactEmbedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactEmbedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		235DCD901D0FE5D900A05C1E /* ReactEmbedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactEmbedUITests.m; sourceTree = "<group>"; };
+		235DCD921D0FE5D900A05C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235DCD9E1D0FEC0F00A05C1E /* ReactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactView.h; sourceTree = "<group>"; };
+		235DCD9F1D0FEC0F00A05C1E /* ReactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactView.m; sourceTree = "<group>"; };
+		5627B446A4CB0805D61AD77B /* Pods-ReactEmbed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactEmbed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactEmbed/Pods-ReactEmbed.debug.xcconfig"; sourceTree = "<group>"; };
+		87D5A001163104FAC9071D12 /* Pods-ReactEmbed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactEmbed.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactEmbed/Pods-ReactEmbed.release.xcconfig"; sourceTree = "<group>"; };
+		90A543391A03ECE0B9DADDC7 /* libPods-ReactEmbed.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactEmbed.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		235DCD651D0FE5D900A05C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF885BA259C1F9CF2A11A9F /* libPods-ReactEmbed.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235DCD7E1D0FE5D900A05C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235DCD891D0FE5D900A05C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		235DCD5F1D0FE5D900A05C1E = {
+			isa = PBXGroup;
+			children = (
+				235DCD6A1D0FE5D900A05C1E /* ReactEmbed */,
+				235DCD841D0FE5D900A05C1E /* ReactEmbedTests */,
+				235DCD8F1D0FE5D900A05C1E /* ReactEmbedUITests */,
+				235DCD691D0FE5D900A05C1E /* Products */,
+				4AA8FD8EA8A447E0AECCB762 /* Pods */,
+				36B58BBDE7B40CCA0D0A825A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		235DCD691D0FE5D900A05C1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				235DCD681D0FE5D900A05C1E /* ReactEmbed.app */,
+				235DCD811D0FE5D900A05C1E /* ReactEmbedTests.xctest */,
+				235DCD8C1D0FE5D900A05C1E /* ReactEmbedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		235DCD6A1D0FE5D900A05C1E /* ReactEmbed */ = {
+			isa = PBXGroup;
+			children = (
+				235DCD6E1D0FE5D900A05C1E /* AppDelegate.h */,
+				235DCD6F1D0FE5D900A05C1E /* AppDelegate.m */,
+				235DCD711D0FE5D900A05C1E /* ViewController.h */,
+				235DCD721D0FE5D900A05C1E /* ViewController.m */,
+				235DCD9E1D0FEC0F00A05C1E /* ReactView.h */,
+				235DCD9F1D0FEC0F00A05C1E /* ReactView.m */,
+				235DCD741D0FE5D900A05C1E /* Main.storyboard */,
+				235DCD771D0FE5D900A05C1E /* Assets.xcassets */,
+				235DCD791D0FE5D900A05C1E /* LaunchScreen.storyboard */,
+				235DCD7C1D0FE5D900A05C1E /* Info.plist */,
+				235DCD6B1D0FE5D900A05C1E /* Supporting Files */,
+			);
+			path = ReactEmbed;
+			sourceTree = "<group>";
+		};
+		235DCD6B1D0FE5D900A05C1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				235DCD6C1D0FE5D900A05C1E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		235DCD841D0FE5D900A05C1E /* ReactEmbedTests */ = {
+			isa = PBXGroup;
+			children = (
+				235DCD851D0FE5D900A05C1E /* ReactEmbedTests.m */,
+				235DCD871D0FE5D900A05C1E /* Info.plist */,
+			);
+			path = ReactEmbedTests;
+			sourceTree = "<group>";
+		};
+		235DCD8F1D0FE5D900A05C1E /* ReactEmbedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				235DCD901D0FE5D900A05C1E /* ReactEmbedUITests.m */,
+				235DCD921D0FE5D900A05C1E /* Info.plist */,
+			);
+			path = ReactEmbedUITests;
+			sourceTree = "<group>";
+		};
+		36B58BBDE7B40CCA0D0A825A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90A543391A03ECE0B9DADDC7 /* libPods-ReactEmbed.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AA8FD8EA8A447E0AECCB762 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5627B446A4CB0805D61AD77B /* Pods-ReactEmbed.debug.xcconfig */,
+				87D5A001163104FAC9071D12 /* Pods-ReactEmbed.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		235DCD671D0FE5D900A05C1E /* ReactEmbed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235DCD951D0FE5D900A05C1E /* Build configuration list for PBXNativeTarget "ReactEmbed" */;
+			buildPhases = (
+				2CDA8B05AD7F51D3C45CFA26 /* [CP] Check Pods Manifest.lock */,
+				235DCD641D0FE5D900A05C1E /* Sources */,
+				235DCD651D0FE5D900A05C1E /* Frameworks */,
+				235DCD661D0FE5D900A05C1E /* Resources */,
+				CDBE0D6EAF9E7E3718352FBB /* [CP] Embed Pods Frameworks */,
+				29FCEEBF85DC08643E0F5C26 /* [CP] Copy Pods Resources */,
+				235DCDAB1D100E6A00A05C1E /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactEmbed;
+			productName = ReactEmbed;
+			productReference = 235DCD681D0FE5D900A05C1E /* ReactEmbed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		235DCD801D0FE5D900A05C1E /* ReactEmbedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235DCD981D0FE5D900A05C1E /* Build configuration list for PBXNativeTarget "ReactEmbedTests" */;
+			buildPhases = (
+				235DCD7D1D0FE5D900A05C1E /* Sources */,
+				235DCD7E1D0FE5D900A05C1E /* Frameworks */,
+				235DCD7F1D0FE5D900A05C1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				235DCD831D0FE5D900A05C1E /* PBXTargetDependency */,
+			);
+			name = ReactEmbedTests;
+			productName = ReactEmbedTests;
+			productReference = 235DCD811D0FE5D900A05C1E /* ReactEmbedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		235DCD8B1D0FE5D900A05C1E /* ReactEmbedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235DCD9B1D0FE5D900A05C1E /* Build configuration list for PBXNativeTarget "ReactEmbedUITests" */;
+			buildPhases = (
+				235DCD881D0FE5D900A05C1E /* Sources */,
+				235DCD891D0FE5D900A05C1E /* Frameworks */,
+				235DCD8A1D0FE5D900A05C1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				235DCD8E1D0FE5D900A05C1E /* PBXTargetDependency */,
+			);
+			name = ReactEmbedUITests;
+			productName = ReactEmbedUITests;
+			productReference = 235DCD8C1D0FE5D900A05C1E /* ReactEmbedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		235DCD601D0FE5D900A05C1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LiZhongwei;
+				TargetAttributes = {
+					235DCD671D0FE5D900A05C1E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					235DCD801D0FE5D900A05C1E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 235DCD671D0FE5D900A05C1E;
+					};
+					235DCD8B1D0FE5D900A05C1E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 235DCD671D0FE5D900A05C1E;
+					};
+				};
+			};
+			buildConfigurationList = 235DCD631D0FE5D900A05C1E /* Build configuration list for PBXProject "ReactEmbed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 235DCD5F1D0FE5D900A05C1E;
+			productRefGroup = 235DCD691D0FE5D900A05C1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				235DCD671D0FE5D900A05C1E /* ReactEmbed */,
+				235DCD801D0FE5D900A05C1E /* ReactEmbedTests */,
+				235DCD8B1D0FE5D900A05C1E /* ReactEmbedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		235DCD661D0FE5D900A05C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235DCD7B1D0FE5D900A05C1E /* LaunchScreen.storyboard in Resources */,
+				235DCD781D0FE5D900A05C1E /* Assets.xcassets in Resources */,
+				235DCD761D0FE5D900A05C1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235DCD7F1D0FE5D900A05C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235DCD8A1D0FE5D900A05C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		235DCDAB1D100E6A00A05C1E /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n./node_modules/react-native/packager/react-native-xcode.sh";
+		};
+		29FCEEBF85DC08643E0F5C26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactEmbed/Pods-ReactEmbed-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CDA8B05AD7F51D3C45CFA26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CDBE0D6EAF9E7E3718352FBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactEmbed/Pods-ReactEmbed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		235DCD641D0FE5D900A05C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235DCDA01D0FEC0F00A05C1E /* ReactView.m in Sources */,
+				235DCD731D0FE5D900A05C1E /* ViewController.m in Sources */,
+				235DCD701D0FE5D900A05C1E /* AppDelegate.m in Sources */,
+				235DCD6D1D0FE5D900A05C1E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235DCD7D1D0FE5D900A05C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235DCD861D0FE5D900A05C1E /* ReactEmbedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235DCD881D0FE5D900A05C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235DCD911D0FE5D900A05C1E /* ReactEmbedUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		235DCD831D0FE5D900A05C1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 235DCD671D0FE5D900A05C1E /* ReactEmbed */;
+			targetProxy = 235DCD821D0FE5D900A05C1E /* PBXContainerItemProxy */;
+		};
+		235DCD8E1D0FE5D900A05C1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 235DCD671D0FE5D900A05C1E /* ReactEmbed */;
+			targetProxy = 235DCD8D1D0FE5D900A05C1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		235DCD741D0FE5D900A05C1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				235DCD751D0FE5D900A05C1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		235DCD791D0FE5D900A05C1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				235DCD7A1D0FE5D900A05C1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		235DCD931D0FE5D900A05C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		235DCD941D0FE5D900A05C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		235DCD961D0FE5D900A05C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5627B446A4CB0805D61AD77B /* Pods-ReactEmbed.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReactEmbed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"React\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.idwzx.ReactEmbed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		235DCD971D0FE5D900A05C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D5A001163104FAC9071D12 /* Pods-ReactEmbed.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReactEmbed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"React\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.idwzx.ReactEmbed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		235DCD991D0FE5D900A05C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReactEmbedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idwzx.ReactEmbedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactEmbed.app/ReactEmbed";
+			};
+			name = Debug;
+		};
+		235DCD9A1D0FE5D900A05C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReactEmbedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idwzx.ReactEmbedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactEmbed.app/ReactEmbed";
+			};
+			name = Release;
+		};
+		235DCD9C1D0FE5D900A05C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReactEmbedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idwzx.ReactEmbedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReactEmbed;
+			};
+			name = Debug;
+		};
+		235DCD9D1D0FE5D900A05C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReactEmbedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idwzx.ReactEmbedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReactEmbed;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		235DCD631D0FE5D900A05C1E /* Build configuration list for PBXProject "ReactEmbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235DCD931D0FE5D900A05C1E /* Debug */,
+				235DCD941D0FE5D900A05C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		235DCD951D0FE5D900A05C1E /* Build configuration list for PBXNativeTarget "ReactEmbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235DCD961D0FE5D900A05C1E /* Debug */,
+				235DCD971D0FE5D900A05C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		235DCD981D0FE5D900A05C1E /* Build configuration list for PBXNativeTarget "ReactEmbedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235DCD991D0FE5D900A05C1E /* Debug */,
+				235DCD9A1D0FE5D900A05C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		235DCD9B1D0FE5D900A05C1E /* Build configuration list for PBXNativeTarget "ReactEmbedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235DCD9C1D0FE5D900A05C1E /* Debug */,
+				235DCD9D1D0FE5D900A05C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 235DCD601D0FE5D900A05C1E /* Project object */;
+}
